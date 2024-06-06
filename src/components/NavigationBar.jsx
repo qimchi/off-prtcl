@@ -8,18 +8,18 @@ import { HashLink } from "react-router-hash-link";
 const navLinks = [
   {
     name: "Home ",
-   // targetSection: "working",
+   targetSection: "working",
     href: "https://offlineprotcol.com"
   },
   {
     name: "Oracles",
-   // targetSection: "blogs",
+    targetSection: "blogs",
     href: "https://www.offlineoracles.com/"
   },
-  {/*
+  {
     name: "About",
     targetSection: "docs",
-    */
+    
   },
   {
     name: "Docs",
