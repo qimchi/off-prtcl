@@ -9,18 +9,22 @@ const navLinks = [
   {
     name: "Home ",
     targetSection: "working",
+    href: "https://offlineprotcol.com"
   },
   {
     name: "Oracles",
     targetSection: "blogs",
+    href: "https://www.offlineoracles.com/"
   },
-  {
+  {/*
     name: "About",
     targetSection: "docs",
+    */
   },
   {
     name: "Docs",
     targetSection: "faq",
+    href: "https://docs.offlineprotocol.com/"
   },
 ];
 
