@@ -77,12 +77,14 @@ const Footer = () => {
             //frameborder="0"
             className="w-full outline-none border-none search-bar pl-2 text-white"
             style={{ background: "transparent" }}
-            placeholder="Subscribe to our newsletter"> 
-            //scrolling="no" 
+            placeholder="Subscribe to our newsletter"
+            
+          > 
+            {//scrolling="no" 
             //style="margin: 0; 
             //border-radius: 0px !important; 
-           // background-color: transparent;
-            
+           //background-color: transparent;
+            ]
           </iframe>
           <button className="bg-white p-3 rounded-full">
             <img src={arrow} alt="arrow" />
