@@ -23,8 +23,8 @@ const navLinks = [
   },
   {
     name: "Docs",
-   // targetSection: "faq",
-    href: "https://docs.offlineprotocol.com/"
+   targetSection: "https://docs.offlineprotocol.com/",
+    
   },
 ];
 
