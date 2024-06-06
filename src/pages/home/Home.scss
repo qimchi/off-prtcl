@@ -1,0 +1,15 @@
+.home {
+    position: relative;
+
+    .top-glow {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .home-contents {
+        position: relative;
+        z-index: 99;
+    }
+}
