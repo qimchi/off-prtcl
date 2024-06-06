@@ -9,7 +9,7 @@ const navLinks = [
   {
     name: "Home ",
    targetSection: "working",
-    href: "https://offlineprotcol.com"
+   
   },
   {
     name: "Oracles",
@@ -23,7 +23,8 @@ const navLinks = [
   },
   {
     name: "Docs",
-   targetSection: "https://docs.offlineprotocol.com/",
+    url: "https://docs.offlineprotocol.com/",
+    type: "external",
     
   },
 ];
