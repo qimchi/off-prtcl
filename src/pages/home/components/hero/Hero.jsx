@@ -46,6 +46,7 @@ const Hero = () => {
               <li>
                 <img
                   src={twitterLogo}
+                  href="https://x.com/OfflineProtocol"
                   alt="offline protocol twitter"
                   className="w-9"
                 />
