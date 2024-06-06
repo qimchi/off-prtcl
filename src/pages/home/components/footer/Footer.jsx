@@ -8,21 +8,21 @@ import AnimatedLogo from "../../../../components/animated-logo/AnimatedLogo";
 const links = (
   <ul className="list-none flex gap-6 text-white">
     <a
-      href="https://memebase.cheezburger.com/"
+      href="#"
       target="_blank"
       rel="noopener noreferrer"
     >
       <li>News</li>
     </a>
     <a
-      href="memebase.cheezburger.com"
+      href="#"
       target="_blank"
       rel="noopener noreferrer"
     >
       <li>Careers</li>
     </a>
     <a
-      href="https://memebase.cheezburger.com/"
+      href="#"
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -42,7 +42,7 @@ const socialMedia = (
       <img src={discord} alt="discord" />
     </a> */}
     <a
-      href="https://memebase.cheezburger.com/"
+      href="https://x.com/OfflineProtocol"
       target="_blank"
       rel="noopener noreferrer"
     >
