@@ -62,21 +62,21 @@ const Footer = () => {
   return (
     <footer className="bg-[#4989A7] p-10 rounded-xl max-w-[99%] mx-auto lg:mb-6 mb-2">
       <div className="flex justify-between items-center border-b border-solid border-white pb-10">
-        <div className="border border-white border-solid rounded-full p-2 w-full lg:max-w-[300px] flex items-center min-w-[280px]">
-          { <input
-          type="email"
-            name="email"
-            id="email"
-            className="w-full outline-none border-none search-bar pl-2 text-white"
-            style={{ background: "transparent" }}
-            placeholder="Subscribe to our newsletter"
-          /> }
+        <iframe
+          src="https://embeds.beehiiv.com/e37215fa-14c1-4912-ae65-ffbff161696f?slim=true"
+          data-test-id="beehiiv-embed"
+          height="52"
+          title="newsletter subscribe"
+        ></iframe>
           
           <button className="bg-white p-3 rounded-full">
             <img src={arrow} alt="arrow" />
           </button>
         </div>
         <div className="hidden lg:block">{socialMedia}</div>
+        <div className="hidden lg:block">{links}</div>
+      </div>
+    <div className="hidden lg:block">{socialMedia}</div>
         <div className="hidden lg:block">{links}</div>
       </div>
       <div className="lg:hidden flex justify-center pt-10">{socialMedia}</div>
