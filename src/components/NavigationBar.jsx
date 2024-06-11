@@ -4,26 +4,30 @@ import GreenLogoImage from "../assets/logo-green.svg";
 import "./NaivgationBar.scss";
 import { motion } from "framer-motion";
 import { HashLink } from "react-router-hash-link";
+import { NavLink } from "react-router-dom";
 
 const navLinks = [
   {
     name: "Home ",
-   targetSection: "working",
+    internalLink: true,
+    address: "/",
    
   },
   {
     name: "Oracles",
-    targetSection: "blogs",
-    href: "https://www.offlineoracles.com/"
+    externalLink: true,
+    address: "https://offlineoracles.com",
   },
   {
     name: "About",
-    targetSection: "docs",
+    internalLink: true,
+    address: "/",
     
   },
   {
     name: "Docs",
-    url: "https://docs.offlineprotocol.com/",
+    externalLink: true,
+    address: "https://docs.offlineprotocol.com/",
     type: "external",
     
   },
@@ -31,13 +35,46 @@ const navLinks = [
 
 const navList = (
   <ul className="flex flex-col lg:flex-row justify-start lg:justify-between items-start lg:items-center gap-8 lg:gap-14">
-    {navLinks.map((item, index) => (
-      <HashLink to={`/#${item.targetSection}`} smooth key={index}>
-        <li key={index} className="text-white lg:text-[#4989A7] cursor-pointer">
-          {item.name}
-        </li>
-      </HashLink>
-    ))}
+   {navLinks.map((item, index) => {
+      if (item.internalLink) {
+        return (
+          <NavLink to={item.address}>
+            <li
+              key={index}
+              className="text-white lg:text-[#4989A7] cursor-pointer"
+            >
+              {item.name}
+            </li>
+          </NavLink>
+        );
+      }
+      if (item.externalLink) {
+        return (
+          <a href={item.address} target="_blank" rel="noopener noreferrer">
+            <li
+              key={index}
+              className="text-white lg:text-[#4989A7] cursor-pointer"
+            >
+              {item.name}
+            </li>
+          </a>
+        );
+      }
+      if (item.section) {
+        return (
+          <HashLink to={`/#${item.targetSection}`} smooth key={index}>
+            <li
+              key={index}
+              className="text-white lg:text-[#4989A7] cursor-pointer"
+            >
+              {item.name}
+            </li>
+          </HashLink>
+        );
+      }
+
+      return "";
+    })}
   </ul>
 );
 
