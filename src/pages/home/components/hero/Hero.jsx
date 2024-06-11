@@ -16,10 +16,24 @@ const Hero = () => {
               information for <strong>everyone</strong>.
             </h1>
             <div className="flex gap-2 mt-8">
-              <button className="primary-btn white large">Join Airdrop</button>
-              <button className="primary-btn white-outlined large">
-                Learn More
-              </button>
+              <a
+                href="https://x.com/offlineprotocol"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="primary-btn white large">
+                  Join Airdrop
+                </button>
+              </a>
+              <a
+                href="https://x.com/offlineprotocol"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="primary-btn white-outlined large">
+                  Learn More
+                </button>
+              </a>
             </div>
           </header>
           <div className="lg:absolute bottom-0 lg:right-[50%] lg:translate-x-[50%] w-[95%] border-t-2 border-solid border-white flex flex-wrap lg:flex-nowrap gap-8 lg:gap-10 justify-between items-center pr-8 pb-5 pt-5">
