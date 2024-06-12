@@ -1,5 +1,5 @@
 import React from "react";
-import "../infrastructure/Infrastructure.scss";
+import "../join-us/JoinUs.scss";
 
 const JoinUs = () => {
   return (
@@ -30,7 +30,7 @@ const JoinUs = () => {
               </a>
             </div>
           </div>
-          <div className="image join">
+          <div className="image">
             <div className="overlay"></div>
           </div>
         </div>
