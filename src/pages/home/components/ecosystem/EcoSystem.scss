@@ -1,0 +1,23 @@
+.ecosystem {
+    background: linear-gradient(102.26deg, #BDABCF 0%, #B1A3BF 100.33%);
+    @apply rounded-xl text-white py-20;
+
+    .card {
+        @apply bg-white hover:bg-[#4989A7] hover:text-white;
+        opacity: 1;
+
+        .description {
+            @apply text-[#a5a1a0];
+            opacity: 1;
+        }
+
+        &:hover {
+            transform: scale(1.05);
+            .description {
+                @apply text-[#ececec];
+                opacity: 1;
+            }
+        }
+    }
+
+}

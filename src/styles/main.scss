@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './reset';
+
+body {
+  background-color: #F4FCFF;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  transform: translateY(2px);
+}
+
+section {
+  @apply relative w-full py-16;
+  opacity: 1;
+}
+
+.primary-btn {
+  @apply px-3 py-2 rounded-full text-white flex justify-center items-center bg-[#4989A7] border-2 border-solid;
+  position: relative;
+
+  &.white {
+    @apply bg-white text-[#4989A7];
+    position: relative;
+  }
+
+  &.white-outlined {
+    @apply bg-none text-[white] border-white;
+    position: relative;
+  }
+
+  &.dark-outlined {
+    @apply bg-white text-dark border-dark;
+    position: relative;
+  }
+
+  &.large {
+    @apply px-6;
+    position: relative;
+  }
+}
+
+.slick-list {
+  overflow: visible !important;
+  -webkit-scrollbar: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.prediction {
+  .grid-col {
+    @apply p-8 rounded-3xl relative w-full;
+    min-height: 230px;
+
+    h3 {
+      @apply text-2xl mb-1 text-white font-medium;
+      opacity: 1;
+    }
+
+    p {
+      @apply text-offWhite;
+      opacity: 1;
+    }
+  }
+}
+
+.prediction ul {
+  position: relative;
+  z-index: 9;
+  margin-top: 0.7rem;
+  list-style-type: disc;
+  padding-left: 16px;
+  font-weight: 500;
+}
+
+.search-bar {
+  &::-webkit-input-placeholder {
+    color: #fff;
+  }
+
+  &:-moz-placeholder {
+    color: #fff;
+    opacity: 1;
+  }
+
+  &::-moz-placeholder {
+    color: #fff;
+    opacity: 1;
+  }
+
+  &:-ms-input-placeholder {
+    color: #fff;
+  }
+
+  &::-ms-input-placeholder {
+    color: #fff;
+  }
+
+  &::placeholder {
+    color: #fff;
+  }
+}
+
+@media(min-width:1600px) {
+  .slick-track {
+    margin: 0 !important;
+  }
+}
+
+.sc-jTzLTM.fYjUXa {
+  background-color: rebeccapurple;
+}
