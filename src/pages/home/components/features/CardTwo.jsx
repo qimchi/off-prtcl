@@ -38,7 +38,7 @@ const CardTwo = () => {
         </div>
         <div className="card-content">
           <h4>Communication</h4>
-          <p className="mb-4">
+          <p className="mb-4 italic">
             Access to communication apps, infrastructure and internet services
             is often severed.
           </p>
