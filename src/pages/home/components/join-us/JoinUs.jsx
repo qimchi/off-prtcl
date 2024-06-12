@@ -22,7 +22,7 @@ const JoinUs = () => {
             </div>
             <div>
               <a
-                href="https://memebase.cheezburger.com/"
+                href="https://offlineprotocol.notion.site/Job-Board-1e91f254120c4d7ba2c504098b05213a?pvs=4"
                 target="_blank"
                 rel="noopener noreferrer"
               >
