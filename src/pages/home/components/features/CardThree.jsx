@@ -38,7 +38,7 @@ const CardThree = () => {
         </div>
         <div className="card-content">
           <h4>Information</h4>
-          <p className="mb-4">
+          <p className="mb-4 italic">
             Users lack tools for reporting, self-sovereign fact-checking, and
             source verification.
           </p>
