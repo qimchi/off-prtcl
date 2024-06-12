@@ -1,0 +1,29 @@
+.image {
+        @apply bg-cover bg-center w-full h-full bg-dark relative overflow-hidden;
+        opacity: 1;
+
+        .overlay {
+            @apply absolute top-0 left-0 w-full h-full;
+            opacity: 1;
+        }
+    }
+
+    &.impact {
+        @apply flex flex-col lg:flex-row;
+        opacity: 1;
+
+        .content {
+            @apply lg:max-w-[35%] flex flex-col justify-between bg-[#7fa0af] rounded-t-xl lg:rounded-s-xl lg:rounded-tr-none;
+            opacity: 1;
+
+            p {
+                @apply mb-10 lg:mb-0;
+                opacity: 1;
+            }
+
+            button {
+                @apply text-[#7FA0AF];
+                opacity: 1;
+            }
+        }
+}
