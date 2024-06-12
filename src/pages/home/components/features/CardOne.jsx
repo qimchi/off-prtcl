@@ -35,7 +35,7 @@ const CardOne = () => {
         </div>
         <div className="card-content">
           <h4>Payments</h4>
-          <p className="mb-4">
+          <p className="mb-4 italic">
             Internet connectivity is a prerequisite to carry out digital payment
             transactions.
           </p>
