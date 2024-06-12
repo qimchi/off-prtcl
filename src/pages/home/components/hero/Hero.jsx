@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="grid lg:grid-cols-2 gap-4 py-3 lg:min-h-[95vh] px-3 lg:px-0">
         <div className="bg-[#4989A7] rounded-lg lg:flex justify-start items-center px-6 relative order-2 lg:order-1 py-16 lg:py-0">
           <header className="mb-20 md:mb-0">
-            <h1 className="text-white text-4xl lg:text-5xl font-thin">
+            <h1 className="text-white text-5xl lg:text-6xl font-thin">
               Payments, communication, & <br className="hidden lg:block" />{" "}
               information for <strong>everyone</strong>.
             </h1>
