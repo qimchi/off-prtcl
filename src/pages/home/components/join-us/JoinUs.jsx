@@ -8,7 +8,7 @@ const JoinUs = () => {
         <h2 className="lg:text-5xl text-4xl leading-tight text-[#7FA0AF] mb-16">
           Join Us
         </h2>
-        <div className="infrastructure-card impact relative">
+        <div className="infrastructure-card join relative">
           <div className="content">
             <div>
               <span>CAREERS</span>
